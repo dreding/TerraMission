@@ -23,6 +23,8 @@ public class TimeManager : MonoBehaviour {
     [SerializeField]
     public int passedYars { get; private set; }
 
+    public float PassedTime { get { return _passedTime; } }
+
     void Awake()
     {
         if (Instance == null)
