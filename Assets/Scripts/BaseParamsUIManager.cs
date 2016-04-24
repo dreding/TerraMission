@@ -15,6 +15,6 @@ public class BaseParamsUIManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        missionDay.text = String.Format("Mission Year {0} Day {1}", TimeManager.Instance.passedDays / 365, TimeManager.Instance.passedDays);
+        missionDay.text = String.Format("Mission Year {0} Day {1}", TimeManager.Instance.passedYears, (int)(TimeManager.Instance.passedDays - (TimeManager.Instance.passedYears * 686.98f)));
 	}
 }

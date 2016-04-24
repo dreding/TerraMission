@@ -8,6 +8,10 @@ namespace TerraMission.Buildings
     /// </summary>
     public class Extractor : Building
     {
+        public ResourceType resourceType;
+        public int count;
+        public int extractionTime;
+
         public new ExtractorMetadata Metadata
         {
             get { return (ExtractorMetadata)base.Metadata; }
@@ -23,10 +27,9 @@ namespace TerraMission.Buildings
         {
             var metadata = Metadata;
 
-            var resourceType = metadata.Resource;
-            var count = metadata.Count * deltaTime;
+            var extractCount = count * (deltaTime / extractionTime);
 
-            OnResourcesExtracted(new ResourceBunch(resourceType, count));
+            OnResourcesExtracted(new ResourceBunch(resourceType, extractCount));
         }
 
         protected virtual void OnResourcesExtracted(ResourceBunch resourceBunch)

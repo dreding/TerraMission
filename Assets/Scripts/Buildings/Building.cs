@@ -16,12 +16,12 @@ namespace TerraMission.Buildings
 
         protected virtual void Start()
         {
-            _passedTime = TimeManager.Instance.PassedTime;
+            _passedTime = TimeManager.Instance.passedMinutes;
         }
 
         protected virtual void Update()
         {
-            var passedTime = TimeManager.Instance.PassedTime;
+            var passedTime = TimeManager.Instance.passedMinutes;
 
             var deltaTime = passedTime - _passedTime;
             OnUpdate(deltaTime);

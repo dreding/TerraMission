@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TimeManager : MonoBehaviour {
+public class TimeManager : MonoBehaviour
+{
 
     public static TimeManager Instance;
 
@@ -12,7 +13,7 @@ public class TimeManager : MonoBehaviour {
     private float _passedTime = 0f;
 
     [SerializeField]
-    private float passedMinutes;
+    public float passedMinutes { get; private set; }
 
     [SerializeField]
     private int passedHours;
@@ -21,9 +22,7 @@ public class TimeManager : MonoBehaviour {
     public int passedDays { get; private set; }
 
     [SerializeField]
-    public int passedYars { get; private set; }
-
-    public float PassedTime { get { return _passedTime; } }
+    public int passedYears { get; private set; }
 
     void Awake()
     {
@@ -33,24 +32,25 @@ public class TimeManager : MonoBehaviour {
             Destroy(this.gameObject);
     }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () 
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
     {
         _passedTime += Time.deltaTime * timeSpeed;
 
         passedMinutes = _passedTime / 60;
-      
+
         passedHours = Mathf.FloorToInt(passedMinutes / 60);
 
         passedDays = Mathf.FloorToInt(passedMinutes / Mars.Instance.dayLenght);
 
-        passedYars = Mathf.FloorToInt(passedDays / Mars.Instance.yearLenght);
-	}
+        passedYears = Mathf.FloorToInt(passedMinutes / Mars.Instance.yearLenght);
+    }
 
     public void ChangeTimeSpeed(float newSpeed)
     {
