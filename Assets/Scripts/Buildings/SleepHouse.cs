@@ -3,7 +3,6 @@ using System.Collections;
 
 namespace TerraMission.Buildings
 {
-
     public class SleepHouse : Building
     {
 

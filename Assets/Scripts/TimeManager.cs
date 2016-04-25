@@ -10,10 +10,13 @@ public class TimeManager : MonoBehaviour
     public int timeSpeed { get; private set; }
 
     [SerializeField]
-    private float _passedTime = 0f;
+    public float _passedTime { get; private set; }
 
     [SerializeField]
     public float passedMinutes { get; private set; }
+
+    [SerializeField]
+    float mins;
 
     [SerializeField]
     private int passedHours;
@@ -26,6 +29,7 @@ public class TimeManager : MonoBehaviour
 
     void Awake()
     {
+        timeSpeed = 1;
         if (Instance == null)
             Instance = this;
         else
@@ -44,6 +48,7 @@ public class TimeManager : MonoBehaviour
         _passedTime += Time.deltaTime * timeSpeed;
 
         passedMinutes = _passedTime / 60;
+        mins = passedMinutes;
 
         passedHours = Mathf.FloorToInt(passedMinutes / 60);
 

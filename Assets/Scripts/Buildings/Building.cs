@@ -5,6 +5,11 @@ namespace TerraMission.Buildings
 {
     public abstract class Building : MonoBehaviour
     {
+        private static Building _choosedOne;
+
+        [SerializeField]
+        protected GameObject UI;
+
         public BuildingMetadata Metadata { get; set; }
 
         private float _passedTime = 0;
@@ -52,6 +57,34 @@ namespace TerraMission.Buildings
         protected bool RequireResources(ResourceType resource, float count)
         {
             throw new NotImplementedException();
+        }
+
+        void OnMouseDown()
+        {
+            Debug.Log("Name " + name);
+            if (_choosedOne != null)
+            {
+                _choosedOne.HideUI();
+                if (_choosedOne == this)
+                {
+                    _choosedOne = null;
+                    return;
+                }
+            }
+            ShowUI();
+            _choosedOne = this;
+        }
+
+        protected void ShowUI()
+        {
+            if (UI != null)
+                UI.SetActive(true);
+        }
+
+        protected void HideUI()
+        {
+            if (UI != null)
+                UI.SetActive(false);
         }
     }
 }

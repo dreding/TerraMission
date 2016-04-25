@@ -1,0 +1,1448 @@
+fileFormatVersion: 2
+guid: bf217ce08fdbbdd46ba8a9820640b682
+timeCreated: 1461488205
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AnimSmog_0
+    21300002: AnimSmog_1
+    21300004: AnimSmog_2
+    21300006: AnimSmog_3
+    21300008: AnimSmog_4
+    21300010: AnimSmog_5
+    21300012: AnimSmog_6
+    21300014: AnimSmog_7
+    21300016: AnimSmog_8
+    21300018: AnimSmog_9
+    21300020: AnimSmog_10
+    21300022: AnimSmog_11
+    21300024: AnimSmog_12
+    21300026: AnimSmog_13
+    21300028: AnimSmog_14
+    21300030: AnimSmog_15
+    21300032: AnimSmog_16
+    21300034: AnimSmog_17
+    21300036: AnimSmog_18
+    21300038: AnimSmog_19
+    21300040: AnimSmog_20
+    21300042: AnimSmog_21
+    21300044: AnimSmog_22
+    21300046: AnimSmog_23
+    21300048: AnimSmog_24
+    21300050: AnimSmog_25
+    21300052: AnimSmog_26
+    21300054: AnimSmog_27
+    21300056: AnimSmog_28
+    21300058: AnimSmog_29
+    21300060: AnimSmog_30
+    21300062: AnimSmog_31
+    21300064: AnimSmog_32
+    21300066: AnimSmog_33
+    21300068: AnimSmog_34
+    21300070: AnimSmog_35
+    21300072: AnimSmog_36
+    21300074: AnimSmog_37
+    21300076: AnimSmog_38
+    21300078: AnimSmog_39
+    21300080: AnimSmog_40
+    21300082: AnimSmog_41
+    21300084: AnimSmog_42
+    21300086: AnimSmog_43
+    21300088: AnimSmog_44
+    21300090: AnimSmog_45
+    21300092: AnimSmog_46
+    21300094: AnimSmog_47
+    21300096: AnimSmog_48
+    21300098: AnimSmog_49
+    21300100: AnimSmog_50
+    21300102: AnimSmog_51
+    21300104: AnimSmog_52
+    21300106: AnimSmog_53
+    21300108: AnimSmog_54
+    21300110: AnimSmog_55
+    21300112: AnimSmog_56
+    21300114: AnimSmog_57
+    21300116: AnimSmog_58
+    21300118: AnimSmog_59
+    21300120: AnimSmog_60
+    21300122: AnimSmog_61
+    21300124: AnimSmog_62
+    21300126: AnimSmog_63
+    21300128: AnimSmog_64
+    21300130: AnimSmog_65
+    21300132: AnimSmog_66
+    21300134: AnimSmog_67
+    21300136: AnimSmog_68
+    21300138: AnimSmog_69
+    21300140: AnimSmog_70
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AnimSmog_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1472
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 26.5}
+        - {x: -31, y: 23.5}
+        - {x: -31, y: -26.5}
+        - {x: 31, y: -26.5}
+        - {x: 31, y: 19.5}
+        - {x: 28, y: 26.5}
+    - name: AnimSmog_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1467
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 32}
+        - {x: -36, y: 25}
+        - {x: -36, y: -15}
+        - {x: -26, y: -32}
+        - {x: 16, y: -32}
+        - {x: 36, y: -22}
+        - {x: 36, y: 32}
+    - name: AnimSmog_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1461
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 32}
+        - {x: -43.5, y: 16}
+        - {x: -43.5, y: -30}
+        - {x: -39.5, y: -32}
+        - {x: 43.5, y: -32}
+        - {x: 43.5, y: 24}
+        - {x: 38.5, y: 32}
+    - name: AnimSmog_3
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1457
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 34}
+        - {x: -45, y: 18}
+        - {x: -45, y: -24}
+        - {x: -41, y: -34}
+        - {x: 40, y: -34}
+        - {x: 45, y: -33}
+        - {x: 45, y: 22}
+        - {x: 32, y: 34}
+    - name: AnimSmog_4
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1463
+        width: 102
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51, y: 36}
+        - {x: -51, y: -20}
+        - {x: -47, y: -36}
+        - {x: 36, y: -36}
+        - {x: 51, y: -35}
+        - {x: 51, y: 34}
+        - {x: 38, y: 36}
+    - name: AnimSmog_5
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1463
+        width: 111
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 37.5}
+        - {x: -46.5, y: 37.5}
+        - {x: -55.5, y: 25.5}
+        - {x: -55.5, y: -6.5}
+        - {x: -34.5, y: -37.5}
+        - {x: 49.5, y: -37.5}
+        - {x: 55.5, y: -36.5}
+        - {x: 55.5, y: 17.5}
+        - {x: 49.5, y: 26.5}
+    - name: AnimSmog_6
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1460
+        width: 132
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 37.5}
+        - {x: -63, y: 32.5}
+        - {x: -66, y: 24.5}
+        - {x: -66, y: -22.5}
+        - {x: -32, y: -37.5}
+        - {x: 51, y: -37.5}
+        - {x: 66, y: -26.5}
+        - {x: 66, y: 28.5}
+        - {x: 15, y: 37.5}
+    - name: AnimSmog_7
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 1458
+        width: 141
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: 39.5}
+        - {x: -70.5, y: 37.5}
+        - {x: -70.5, y: -24.5}
+        - {x: -57.5, y: -39.5}
+        - {x: 70.5, y: -39.5}
+        - {x: 70.5, y: 25.5}
+        - {x: 49.5, y: 39.5}
+    - name: AnimSmog_8
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1463
+        width: 153
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.5, y: 39.5}
+        - {x: -76.5, y: 24.5}
+        - {x: -76.5, y: -36.5}
+        - {x: -75.5, y: -39.5}
+        - {x: 68.5, y: -39.5}
+        - {x: 76.5, y: -36.5}
+        - {x: 76.5, y: 28.5}
+        - {x: 11.5, y: 39.5}
+    - name: AnimSmog_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1347
+        width: 169
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 39.5}
+        - {x: -84.5, y: 39.5}
+        - {x: -84.5, y: -24.5}
+        - {x: -78.5, y: -39.5}
+        - {x: 83.5, y: -39.5}
+        - {x: 84.5, y: -34.5}
+        - {x: 84.5, y: 18.5}
+        - {x: 75.5, y: 33.5}
+    - name: AnimSmog_10
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1347
+        width: 183
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.5, y: 39.5}
+        - {x: -91.5, y: 37.5}
+        - {x: -91.5, y: -20.5}
+        - {x: -83.5, y: -39.5}
+        - {x: 80.5, y: -39.5}
+        - {x: 91.5, y: -30.5}
+        - {x: 91.5, y: 32.5}
+        - {x: 47.5, y: 39.5}
+    - name: AnimSmog_11
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1347
+        width: 189
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77.5, y: 39}
+        - {x: -94.5, y: 39}
+        - {x: -94.5, y: -34}
+        - {x: -79.5, y: -39}
+        - {x: 94.5, y: -39}
+        - {x: 94.5, y: 29}
+        - {x: 92.5, y: 37}
+    - name: AnimSmog_12
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1349
+        width: 192
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 38.5}
+        - {x: -81, y: 38.5}
+        - {x: -94, y: 36.5}
+        - {x: -96, y: 27.5}
+        - {x: -96, y: -26.5}
+        - {x: -87, y: -38.5}
+        - {x: 96, y: -38.5}
+        - {x: 96, y: 8.5}
+        - {x: 85, y: 22.5}
+    - name: AnimSmog_13
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1345
+        width: 207
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -102.5, y: 39.5}
+        - {x: -103.5, y: 34.5}
+        - {x: -103.5, y: -31.5}
+        - {x: -96.5, y: -39.5}
+        - {x: 103.5, y: -39.5}
+        - {x: 103.5, y: 20.5}
+        - {x: 24.5, y: 39.5}
+    - name: AnimSmog_14
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1346
+        width: 217
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108.5, y: 39}
+        - {x: -108.5, y: -25}
+        - {x: -90.5, y: -39}
+        - {x: 108.5, y: -39}
+        - {x: 108.5, y: 16}
+        - {x: 78.5, y: 39}
+    - name: AnimSmog_15
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1221
+        width: 236
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -118, y: 40}
+        - {x: -118, y: -30}
+        - {x: -80, y: -40}
+        - {x: 118, y: -40}
+        - {x: 118, y: 18}
+        - {x: 98, y: 40}
+    - name: AnimSmog_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1221
+        width: 240
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 39.5}
+        - {x: -113, y: 39.5}
+        - {x: -120, y: 27.5}
+        - {x: -120, y: -30.5}
+        - {x: -113, y: -39.5}
+        - {x: 120, y: -39.5}
+        - {x: 120, y: 13.5}
+        - {x: 85, y: 32.5}
+    - name: AnimSmog_17
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1221
+        width: 233
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97.5, y: 5.5}
+        - {x: 94.5, y: 2.5}
+        - {x: 92.5, y: -1.5}
+        - {x: 95.5, y: 4.5}
+        - {x: 109.5, y: 30.5}
+        - {x: 49.5, y: 39.5}
+        - {x: -113.5, y: 39.5}
+        - {x: -116.5, y: 36.5}
+        - {x: -116.5, y: -25.5}
+        - {x: -89.5, y: -39.5}
+        - {x: 73.5, y: -39.5}
+        - {x: 104.5, y: -32.5}
+        - {x: 116.5, y: -28.5}
+        - {x: 116.5, y: -9.5}
+        - {x: 103.5, y: 5.5}
+    - name: AnimSmog_18
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1221
+        width: 235
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 38.5}
+        - {x: -104.5, y: 38.5}
+        - {x: -117.5, y: 24.5}
+        - {x: -117.5, y: -30.5}
+        - {x: -66.5, y: -38.5}
+        - {x: 100.5, y: -38.5}
+        - {x: 117.5, y: -31.5}
+        - {x: 117.5, y: -1.5}
+        - {x: 92.5, y: 27.5}
+      - - {x: 105.5, y: 2.5}
+        - {x: 104.5, y: 0.5}
+        - {x: 104.5, y: -2.5}
+        - {x: 106.5, y: -3.5}
+        - {x: 109.5, y: -3.5}
+        - {x: 110.5, y: -1.5}
+        - {x: 110.5, y: 1.5}
+        - {x: 108.5, y: 2.5}
+    - name: AnimSmog_19
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1221
+        width: 222
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104, y: 28}
+        - {x: 21, y: 38}
+        - {x: -104, y: 38}
+        - {x: -111, y: 21}
+        - {x: -111, y: -21}
+        - {x: -62, y: -38}
+        - {x: 72, y: -38}
+        - {x: 111, y: -12}
+        - {x: 111, y: 17}
+      - - {x: 104, y: -17}
+        - {x: 104, y: -22}
+        - {x: 108, y: -26}
+        - {x: 111, y: -26}
+        - {x: 111, y: -13}
+        - {x: 108, y: -13}
+    - name: AnimSmog_20
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1235
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AnimSmog_21
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1219
+        width: 244
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 41}
+        - {x: -104, y: 41}
+        - {x: -122, y: 33}
+        - {x: -122, y: -24}
+        - {x: -89, y: -41}
+        - {x: 84, y: -41}
+        - {x: 122, y: -29}
+        - {x: 122, y: 17}
+        - {x: 52, y: 36}
+    - name: AnimSmog_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1091
+        width: 247
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -113.5, y: 41.5}
+        - {x: -123.5, y: 19.5}
+        - {x: -123.5, y: -30.5}
+        - {x: -115.5, y: -41.5}
+        - {x: 110.5, y: -41.5}
+        - {x: 123.5, y: -39.5}
+        - {x: 123.5, y: 27.5}
+        - {x: -11.5, y: 41.5}
+    - name: AnimSmog_23
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1091
+        width: 246
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 41.5}
+        - {x: -107, y: 41.5}
+        - {x: -123, y: 34.5}
+        - {x: -123, y: -41.5}
+        - {x: 116, y: -41.5}
+        - {x: 123, y: -37.5}
+        - {x: 123, y: 6.5}
+        - {x: 116, y: 18.5}
+    - name: AnimSmog_24
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1089
+        width: 252
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126, y: 7.5}
+        - {x: 110, y: 18.5}
+        - {x: 7, y: 40.5}
+        - {x: -100, y: 40.5}
+        - {x: -126, y: 36.5}
+        - {x: -126, y: -24.5}
+        - {x: -107, y: -37.5}
+        - {x: -85, y: -40.5}
+        - {x: 87, y: -40.5}
+        - {x: 123, y: -28.5}
+        - {x: 126, y: -18.5}
+    - name: AnimSmog_25
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1089
+        width: 246
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -123, y: -12}
+        - {x: -98, y: -41}
+        - {x: 101, y: -41}
+        - {x: 123, y: -36}
+        - {x: 123, y: -3}
+        - {x: 104, y: 20}
+        - {x: 29, y: 41}
+        - {x: -109, y: 41}
+        - {x: -123, y: 37}
+    - name: AnimSmog_26
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1095
+        width: 244
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -122, y: 39.5}
+        - {x: -122, y: -28.5}
+        - {x: -102, y: -39.5}
+        - {x: 122, y: -39.5}
+        - {x: 122, y: 9.5}
+        - {x: 104, y: 39.5}
+    - name: AnimSmog_27
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 956
+        width: 246
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 38}
+        - {x: -104, y: 38}
+        - {x: -112, y: 37}
+        - {x: -123, y: 21}
+        - {x: -123, y: -27}
+        - {x: -106, y: -38}
+        - {x: 90, y: -38}
+        - {x: 123, y: -27}
+        - {x: 123, y: 2}
+        - {x: 37, y: 30}
+    - name: AnimSmog_28
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 955
+        width: 246
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 38.5}
+        - {x: -116, y: 38.5}
+        - {x: -123, y: 29.5}
+        - {x: -123, y: -18.5}
+        - {x: -115, y: -38.5}
+        - {x: 83, y: -38.5}
+        - {x: 115, y: -35.5}
+        - {x: 123, y: -30.5}
+        - {x: 123, y: 10.5}
+    - name: AnimSmog_29
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 956
+        width: 228
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -111, y: 38.5}
+        - {x: -114, y: 35.5}
+        - {x: -114, y: -34.5}
+        - {x: -112, y: -38.5}
+        - {x: 109, y: -38.5}
+        - {x: 114, y: -32.5}
+        - {x: 114, y: 27.5}
+        - {x: 62, y: 38.5}
+    - name: AnimSmog_30
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 972
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AnimSmog_31
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 957
+        width: 233
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.5, y: 38}
+        - {x: -116.5, y: -19}
+        - {x: -102.5, y: -38}
+        - {x: 108.5, y: -38}
+        - {x: 116.5, y: -21}
+        - {x: 116.5, y: 21}
+        - {x: 96.5, y: 38}
+    - name: AnimSmog_32
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 954
+        width: 239
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 40.5}
+        - {x: -119.5, y: 40.5}
+        - {x: -119.5, y: -36.5}
+        - {x: -118.5, y: -40.5}
+        - {x: 100.5, y: -40.5}
+        - {x: 119.5, y: -34.5}
+        - {x: 119.5, y: 3.5}
+        - {x: 62.5, y: 38.5}
+    - name: AnimSmog_33
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 983
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AnimSmog_34
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 808
+        width: 236
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105, y: 40}
+        - {x: -112, y: 38}
+        - {x: -118, y: 20}
+        - {x: -118, y: -25}
+        - {x: -96, y: -40}
+        - {x: 110, y: -40}
+        - {x: 118, y: -24}
+        - {x: 118, y: 27}
+        - {x: 43, y: 40}
+    - name: AnimSmog_35
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 816
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AnimSmog_36
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 809
+        width: 243
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -101.5, y: 39.5}
+        - {x: -114.5, y: 32.5}
+        - {x: -121.5, y: 15.5}
+        - {x: -121.5, y: -37.5}
+        - {x: -120.5, y: -39.5}
+        - {x: 121.5, y: -39.5}
+        - {x: 121.5, y: 25.5}
+        - {x: 58.5, y: 39.5}
+    - name: AnimSmog_37
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 801
+        width: 244
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: 32.5}
+        - {x: 72, y: 39.5}
+        - {x: -99, y: 39.5}
+        - {x: -122, y: 24.5}
+        - {x: -122, y: -36.5}
+        - {x: -110, y: -39.5}
+        - {x: 106, y: -39.5}
+        - {x: 109, y: -36.5}
+        - {x: 109, y: 5.5}
+      - - {x: 117, y: -3.5}
+        - {x: 117, y: -5.5}
+        - {x: 119, y: -7.5}
+        - {x: 122, y: -7.5}
+        - {x: 122, y: -1.5}
+        - {x: 119, y: -1.5}
+    - name: AnimSmog_38
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 808
+        width: 240
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 107, y: 22}
+        - {x: 101, y: 20}
+        - {x: 96, y: 18}
+        - {x: 90, y: 13}
+        - {x: 27, y: 40}
+        - {x: -115, y: 40}
+        - {x: -120, y: 38}
+        - {x: -120, y: -23}
+        - {x: -110, y: -40}
+        - {x: 120, y: -40}
+        - {x: 120, y: 12}
+    - name: AnimSmog_39
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 808
+        width: 212
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 106, y: -28}
+        - {x: 106, y: 1}
+        - {x: 92, y: 18}
+        - {x: 69, y: 39}
+        - {x: -92, y: 39}
+        - {x: -106, y: 26}
+        - {x: -106, y: -31}
+        - {x: -82, y: -39}
+        - {x: 74, y: -39}
+        - {x: 83, y: -38}
+        - {x: 95, y: -36}
+        - {x: 105, y: -30}
+    - name: AnimSmog_40
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 827
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AnimSmog_41
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 663
+        width: 225
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -109.5, y: 39}
+        - {x: -112.5, y: 38}
+        - {x: -112.5, y: -24}
+        - {x: -97.5, y: -39}
+        - {x: 108.5, y: -39}
+        - {x: 112.5, y: -34}
+        - {x: 112.5, y: 23}
+        - {x: 95.5, y: 39}
+    - name: AnimSmog_42
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 663
+        width: 251
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125.5, y: 11}
+        - {x: 89.5, y: 38}
+        - {x: -110.5, y: 38}
+        - {x: -125.5, y: 22}
+        - {x: -125.5, y: -21}
+        - {x: -97.5, y: -38}
+        - {x: 125.5, y: -38}
+    - name: AnimSmog_43
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 662
+        width: 249
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -124.5, y: -31.5}
+        - {x: -118.5, y: -38.5}
+        - {x: 124.5, y: -38.5}
+        - {x: 124.5, y: 12.5}
+        - {x: 113.5, y: 33.5}
+        - {x: 62.5, y: 38.5}
+        - {x: -118.5, y: 38.5}
+        - {x: -124.5, y: 25.5}
+    - name: AnimSmog_44
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 660
+        width: 230
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -115, y: 38.5}
+        - {x: -115, y: -38.5}
+        - {x: 96, y: -38.5}
+        - {x: 115, y: -30.5}
+        - {x: 115, y: 23.5}
+        - {x: 97, y: 38.5}
+    - name: AnimSmog_45
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 662
+        width: 245
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81.5, y: -37.5}
+        - {x: 122.5, y: -22.5}
+        - {x: 122.5, y: 13.5}
+        - {x: 119.5, y: 28.5}
+        - {x: 61.5, y: 37.5}
+        - {x: -110.5, y: 37.5}
+        - {x: -121.5, y: 27.5}
+        - {x: -122.5, y: 23.5}
+        - {x: -122.5, y: -3.5}
+        - {x: -106.5, y: -24.5}
+        - {x: -93.5, y: -33.5}
+        - {x: -86.5, y: -37.5}
+    - name: AnimSmog_46
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 490
+        width: 229
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -114.5, y: 38}
+        - {x: -114.5, y: -26}
+        - {x: -105.5, y: -38}
+        - {x: 97.5, y: -38}
+        - {x: 114.5, y: -26}
+        - {x: 114.5, y: 35}
+        - {x: 78.5, y: 38}
+    - name: AnimSmog_47
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 514
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AnimSmog_48
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 490
+        width: 227
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108.5, y: 38}
+        - {x: -113.5, y: 28}
+        - {x: -113.5, y: -24}
+        - {x: -100.5, y: -31}
+        - {x: -86.5, y: -38}
+        - {x: 92.5, y: -38}
+        - {x: 113.5, y: -35}
+        - {x: 113.5, y: 34}
+        - {x: 84.5, y: 38}
+      - - {x: 110.5, y: -2}
+        - {x: 112.5, y: -4}
+        - {x: 113.5, y: -4}
+        - {x: 113.5, y: 3}
+        - {x: 110.5, y: 2}
+    - name: AnimSmog_49
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 525
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AnimSmog_50
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 483
+        width: 240
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 40}
+        - {x: -115, y: 40}
+        - {x: -120, y: 35}
+        - {x: -120, y: -40}
+        - {x: 120, y: -40}
+        - {x: 120, y: 7}
+        - {x: 84, y: 28}
+    - name: AnimSmog_51
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 483
+        width: 241
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 39.5}
+        - {x: -117.5, y: 39.5}
+        - {x: -120.5, y: 34.5}
+        - {x: -120.5, y: -25.5}
+        - {x: -117.5, y: -35.5}
+        - {x: -83.5, y: -39.5}
+        - {x: 109.5, y: -39.5}
+        - {x: 120.5, y: -37.5}
+        - {x: 120.5, y: 7.5}
+        - {x: 93.5, y: 26.5}
+      - - {x: 88.5, y: -16.5}
+        - {x: 87.5, y: -17.5}
+        - {x: 87.5, y: -23.5}
+        - {x: 88.5, y: -25.5}
+        - {x: 96.5, y: -25.5}
+        - {x: 97.5, y: -23.5}
+        - {x: 97.5, y: -17.5}
+        - {x: 94.5, y: -16.5}
+    - name: AnimSmog_52
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 483
+        width: 230
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -113, y: 39}
+        - {x: -115, y: 38}
+        - {x: -115, y: -22}
+        - {x: -104, y: -39}
+        - {x: 98, y: -39}
+        - {x: 115, y: -24}
+        - {x: 115, y: 23}
+        - {x: 27, y: 39}
+    - name: AnimSmog_53
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 326
+        width: 241
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -116.5, y: 38.5}
+        - {x: -120.5, y: 34.5}
+        - {x: -120.5, y: -17.5}
+        - {x: -109.5, y: -38.5}
+        - {x: 100.5, y: -38.5}
+        - {x: 120.5, y: -22.5}
+        - {x: 120.5, y: 17.5}
+        - {x: 29.5, y: 38.5}
+    - name: AnimSmog_54
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 323
+        width: 252
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126, y: -16.5}
+        - {x: 126, y: 6.5}
+        - {x: 123, y: 12.5}
+        - {x: 35, y: 33.5}
+        - {x: -49, y: 40.5}
+        - {x: -119, y: 40.5}
+        - {x: -126, y: 18.5}
+        - {x: -126, y: -23.5}
+        - {x: -118, y: -27.5}
+        - {x: -86, y: -40.5}
+        - {x: 103, y: -40.5}
+    - name: AnimSmog_55
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 318
+        width: 249
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: 27.5}
+        - {x: -5.5, y: 35.5}
+        - {x: -63.5, y: 42.5}
+        - {x: -110.5, y: 42.5}
+        - {x: -124.5, y: 30.5}
+        - {x: -124.5, y: -42.5}
+        - {x: 120.5, y: -42.5}
+        - {x: 124.5, y: -30.5}
+        - {x: 124.5, y: 4.5}
+        - {x: 122.5, y: 9.5}
+    - name: AnimSmog_56
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 317
+        width: 249
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.5, y: 29}
+        - {x: -32.5, y: 43}
+        - {x: -108.5, y: 43}
+        - {x: -124.5, y: 25}
+        - {x: -124.5, y: -28}
+        - {x: -117.5, y: -43}
+        - {x: 115.5, y: -43}
+        - {x: 124.5, y: -25}
+        - {x: 124.5, y: 8}
+        - {x: 83.5, y: 21}
+    - name: AnimSmog_57
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 317
+        width: 242
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -121, y: 42}
+        - {x: -121, y: -26}
+        - {x: -100, y: -42}
+        - {x: 114, y: -42}
+        - {x: 121, y: -40}
+        - {x: 121, y: 21}
+        - {x: 113, y: 42}
+    - name: AnimSmog_58
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 344
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AnimSmog_59
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 176
+        width: 225
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 42}
+        - {x: -109.5, y: 42}
+        - {x: -112.5, y: 32}
+        - {x: -112.5, y: -38}
+        - {x: -108.5, y: -42}
+        - {x: 111.5, y: -42}
+        - {x: 112.5, y: -38}
+        - {x: 112.5, y: 3}
+        - {x: 105.5, y: 25}
+    - name: AnimSmog_60
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 171
+        width: 233
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105.5, y: 41}
+        - {x: -116.5, y: 32}
+        - {x: -116.5, y: -41}
+        - {x: 104.5, y: -41}
+        - {x: 116.5, y: -38}
+        - {x: 116.5, y: 18}
+        - {x: 64.5, y: 41}
+    - name: AnimSmog_61
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 171
+        width: 244
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: 12}
+        - {x: 115, y: 13}
+        - {x: 75, y: 41}
+        - {x: -112, y: 41}
+        - {x: -122, y: 37}
+        - {x: -122, y: -24}
+        - {x: -104, y: -41}
+        - {x: 93, y: -41}
+        - {x: 105, y: -36}
+        - {x: 122, y: -11}
+    - name: AnimSmog_62
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 172
+        width: 241
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -120.5, y: -17}
+        - {x: -105.5, y: -40}
+        - {x: 120.5, y: -40}
+        - {x: 120.5, y: 8}
+        - {x: 108.5, y: 26}
+        - {x: 6.5, y: 40}
+        - {x: -100.5, y: 40}
+        - {x: -120.5, y: 22}
+    - name: AnimSmog_63
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 180
+        width: 235
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -114.5, y: 38}
+        - {x: -117.5, y: 27}
+        - {x: -117.5, y: -38}
+        - {x: 117.5, y: -38}
+        - {x: 117.5, y: 38}
+    - name: AnimSmog_64
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 43
+        width: 232
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 42.5}
+        - {x: -114, y: 42.5}
+        - {x: -116, y: 34.5}
+        - {x: -116, y: -24.5}
+        - {x: -87, y: -42.5}
+        - {x: 112, y: -42.5}
+        - {x: 116, y: -38.5}
+        - {x: 116, y: 9.5}
+        - {x: 48, y: 30.5}
+    - name: AnimSmog_65
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 49
+        width: 235
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 42}
+        - {x: -117.5, y: 42}
+        - {x: -117.5, y: -36}
+        - {x: -112.5, y: -42}
+        - {x: 117.5, y: -42}
+        - {x: 117.5, y: 10}
+        - {x: 115.5, y: 11}
+    - name: AnimSmog_66
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 45
+        width: 222
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61, y: 41.5}
+        - {x: -102, y: 41.5}
+        - {x: -111, y: 36.5}
+        - {x: -111, y: -21.5}
+        - {x: -90, y: -41.5}
+        - {x: 111, y: -41.5}
+        - {x: 111, y: 4.5}
+        - {x: 80, y: 38.5}
+      - - {x: 106, y: -1.5}
+        - {x: 106, y: -6.5}
+        - {x: 108, y: -8.5}
+        - {x: 111, y: -8.5}
+        - {x: 111, y: 0.5}
+        - {x: 108, y: 0.5}
+    - name: AnimSmog_67
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 80
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AnimSmog_68
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 79
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: AnimSmog_69
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 45
+        width: 222
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 41}
+        - {x: -111, y: 41}
+        - {x: -111, y: -41}
+        - {x: 100, y: -41}
+        - {x: 111, y: -26}
+        - {x: 111, y: 5}
+        - {x: 85, y: 31}
+    - name: AnimSmog_70
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 52
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

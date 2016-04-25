@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 3ae6967e29daf434ea8ee6f54fe5a330
+timeCreated: 1461490148
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AnimFire_0
+    21300002: AnimFire_1
+    21300004: AnimFire_2
+    21300006: AnimFire_3
+    21300008: AnimFire_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AnimFire_0
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 251
+        width: 642
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 117.65629, y: -34.055725}
+        - {x: 110.65629, y: 4.944275}
+        - {x: 97.65629, y: 57.944275}
+        - {x: 85.65629, y: 49.944275}
+        - {x: 12.656288, y: 149.94427}
+        - {x: 3.6562881, y: 149.94427}
+        - {x: -72.34371, y: 56.944275}
+        - {x: -90.34371, y: 98.944275}
+        - {x: -123.34371, y: 93.944275}
+        - {x: -123.34371, y: -101.055725}
+        - {x: -119.34371, y: -122.055725}
+        - {x: -99.34371, y: -144.05573}
+        - {x: -64.34371, y: -149.05573}
+        - {x: 59.65629, y: -149.05573}
+        - {x: 104.65629, y: -121.055725}
+        - {x: 124.65629, y: -68.055725}
+        - {x: 124.65629, y: -31.055725}
+    - name: AnimFire_1
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 251
+        width: 669
+        height: 845
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 125.40411, y: 90.444275}
+        - {x: 118.40411, y: 92.444275}
+        - {x: 113.40411, y: 85.444275}
+        - {x: 101.40411, y: 62.444275}
+        - {x: 99.40411, y: 53.444275}
+        - {x: 55.404114, y: 87.444275}
+        - {x: 50.404114, y: 148.44427}
+        - {x: 19.404114, y: 163.44427}
+        - {x: 0.40411377, y: 163.44427}
+        - {x: -32.595886, y: 83.444275}
+        - {x: -93.59589, y: 111.444275}
+        - {x: -104.59589, y: 110.444275}
+        - {x: -112.59589, y: 54.444275}
+        - {x: -128.59589, y: -37.555725}
+        - {x: -128.59589, y: -108.555725}
+        - {x: -105.59589, y: -150.55573}
+        - {x: -54.595886, y: -162.55573}
+        - {x: 59.404114, y: -162.55573}
+        - {x: 98.40411, y: -142.55573}
+        - {x: 129.40411, y: -124.555725}
+        - {x: 129.40411, y: 80.444275}
+    - name: AnimFire_2
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 251
+        width: 664
+        height: 853
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128.47205, y: -10.055725}
+        - {x: 79.472046, y: 39.944275}
+        - {x: 49.472046, y: 82.944275}
+        - {x: 42.472046, y: 92.944275}
+        - {x: 15.472046, y: 164.94427}
+        - {x: 1.4720459, y: 164.94427}
+        - {x: -36.527954, y: 124.944275}
+        - {x: -28.527954, y: 61.944275}
+        - {x: -51.527954, y: 112.944275}
+        - {x: -96.527954, y: 88.944275}
+        - {x: -112.527954, y: 35.944275}
+        - {x: -127.527954, y: -15.055725}
+        - {x: -127.527954, y: -122.055725}
+        - {x: -126.527954, y: -133.05573}
+        - {x: -92.527954, y: -160.05573}
+        - {x: -55.527954, y: -164.05573}
+        - {x: 69.472046, y: -164.05573}
+        - {x: 120.472046, y: -124.055725}
+        - {x: 128.47205, y: -104.055725}
+    - name: AnimFire_3
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 251
+        width: 638
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.466064, y: 114.944275}
+        - {x: 41.466064, y: 116.944275}
+        - {x: 30.466064, y: 97.944275}
+        - {x: -15.533936, y: 105.944275}
+        - {x: -20.533936, y: 106.944275}
+        - {x: -39.533936, y: 135.94427}
+        - {x: -41.533936, y: 137.94427}
+        - {x: -50.533936, y: 137.94427}
+        - {x: -104.533936, y: 74.944275}
+        - {x: -122.533936, y: 28.944275}
+        - {x: -122.533936, y: -109.055725}
+        - {x: -83.533936, y: -130.05573}
+        - {x: -61.533936, y: -137.05573}
+        - {x: 46.466064, y: -137.05573}
+        - {x: 63.466064, y: -136.05573}
+        - {x: 123.466064, y: -112.055725}
+        - {x: 123.466064, y: 11.944275}
+        - {x: 83.466064, y: 70.944275}
+    - name: AnimFire_4
+      rect:
+        serializedVersion: 2
+        x: 4491
+        y: 251
+        width: 640
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103.12256, y: 13.444275}
+        - {x: 95.12256, y: 14.444275}
+        - {x: 93.12256, y: 10.444275}
+        - {x: 70.12256, y: 124.444275}
+        - {x: 52.12256, y: 145.44427}
+        - {x: 44.12256, y: 145.44427}
+        - {x: 21.122559, y: 94.444275}
+        - {x: -6.8774414, y: 134.44427}
+        - {x: -122.87744, y: 110.444275}
+        - {x: -122.87744, y: -118.555725}
+        - {x: -69.87744, y: -144.55573}
+        - {x: 36.12256, y: -144.55573}
+        - {x: 91.12256, y: -131.55573}
+        - {x: 124.12256, y: -88.555725}
+        - {x: 124.12256, y: -19.555725}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

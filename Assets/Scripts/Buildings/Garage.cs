@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace TerraMission.Buildings
 {
-    public class GreenHouse : Extractor
+    public class Garage : Factory
     {
 
         // Use this for initialization
@@ -17,11 +17,5 @@ namespace TerraMission.Buildings
         {
 
         }
-
-        public void Extract()
-        {
-            ExtractResources(TimeManager.Instance.passedMinutes - lastExtractionTime);
-        }
-       
     }
 }

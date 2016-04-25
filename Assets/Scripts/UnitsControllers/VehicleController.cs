@@ -9,6 +9,11 @@ public abstract class VehicleController : MonoBehaviour {
 
     protected bool _isMoving = false;
 
+    private Vector3 direction;
+    private float arriveTime = 0;
+    private Vector3 targetPos;
+    private float startTime = 0;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -16,6 +21,12 @@ public abstract class VehicleController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+       
+	}
+
+    protected void OnUpdate()
+    {
+        Move();
         if (!isChoosed || _isMoving)
             return;
 
@@ -26,18 +37,45 @@ public abstract class VehicleController : MonoBehaviour {
 
             Vector2 screenPos = Camera.main.ScreenToWorldPoint(mousePos);
 
-            RaycastHit2D hit = Physics2D.Raycast(screenPos, Vector2.zero, float.PositiveInfinity, 1 << 8);
-            if (hit)
+            RaycastHit2D hit = Physics2D.Raycast(screenPos, Vector2.zero, float.PositiveInfinity);
+            if (hit && hit.transform.tag == "Ground")
             {
                 MoveToTarget(hit.point);
             }
         }
-	}
+    }
+
+    private void Move()
+    {
+        if (_isMoving && direction != Vector3.zero)
+        {
+            if (arriveTime <= TimeManager.Instance.passedMinutes)
+            {
+                this.transform.position = targetPos;
+                _isMoving = false;
+                direction = Vector3.zero;
+                startTime = 0;
+            }
+            else
+            {              
+                Vector3 dif = direction * (TimeManager.Instance.passedMinutes - startTime);
+                Vector3 newPos = transform.position + dif;
+                newPos.z = transform.position.z;
+                this.transform.position = newPos;
+                startTime = TimeManager.Instance.passedMinutes;
+            }
+        }
+    }
 
     protected void MoveToTarget(Vector2 pos)
-    {
-        Vector3 newPos = new Vector3(pos.x, pos.y, transform.position.z);
-        float time = Vector3.Distance(this.transform.position, newPos) / speed;
-        this.transform.DOMove(newPos, time);
+    { 
+        targetPos = new Vector3(pos.x, pos.y, transform.position.z);
+        float dist = Vector3.Distance(this.transform.position, targetPos) / speed;
+        float needTime = (dist * 222.2f) / (speed * 60);
+        startTime = TimeManager.Instance.passedMinutes;
+        arriveTime = TimeManager.Instance.passedMinutes + needTime;
+
+        direction = (targetPos - transform.position).normalized;
+        _isMoving = true;
     }
 }

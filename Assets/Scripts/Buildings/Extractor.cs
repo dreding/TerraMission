@@ -12,6 +12,8 @@ namespace TerraMission.Buildings
         public int count;
         public int extractionTime;
 
+        public float lastExtractionTime { get; private set; }
+
         public new ExtractorMetadata Metadata
         {
             get { return (ExtractorMetadata)base.Metadata; }
@@ -28,6 +30,7 @@ namespace TerraMission.Buildings
             var metadata = Metadata;
 
             var extractCount = count * (deltaTime / extractionTime);
+            lastExtractionTime = TimeManager.Instance.passedMinutes;
 
             OnResourcesExtracted(new ResourceBunch(resourceType, extractCount));
         }
